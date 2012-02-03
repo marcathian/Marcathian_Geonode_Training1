@@ -5,7 +5,7 @@ def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
 setup(
-    name="Marcathian_Geonode_Training1"
+    name="marcathian",
     version="0.1",
     author="Marcathian Alexander",
     author_email="marcathian@gmail.com",
@@ -20,7 +20,7 @@ setup(
     keywords="geonode django",
     url='https://github.com/marcathian/Marcathian_Geonode_Training1',
     scripts = [
-               'scripts/Marcathian_Geonode_Training1',
+               'scripts/marcathian',
               ],
     packages=find_packages('.'),
     include_package_data=True,
